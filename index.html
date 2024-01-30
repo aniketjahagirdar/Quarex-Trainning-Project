@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <section id="Nav_section">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-lg">
+                <img src="images/logo.png" class="navbar_img1 ms-0" alt="logo">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars" style="color: #121014;font-size: 27px;"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " id="annkar_1" aria-current="page" href="#"><b>HOME</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><b>ABOUT US</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><b>TYPOGRAPHY</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#"><b>CONTACTS</b></a>
+                        </li>
+                    </ul>
+                    <button class="navbar-collapse_bt1 border-0 p-2 w-25 " data-bs-toggle="modal" data-bs-target="#exampleModal"><b>GET
+                            A QUOTE</b>
+                    </button>
+                </div>
+                    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel"></h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body ">
+                                    <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                          <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Personal Details</button>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                          <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Family Details</button>
+                                        </li>
+                                      </ul>
+                                      <div class="tab-content" id="myTabContent">
+                                        <div class="tab-pane fade show active p-5" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                            <label for="Name" class="text-start">Name :-</label>
+                                            <input type="text" class="int1 w-100" name="" id="" placeholder="Enter your name">
+                                            <label for="Name" class="text-start">Last Name :-</label>
+                                            <input type="text" class="int1 w-100" name="" id="" placeholder="Enter your LastName">
+                                            <label for="Name" class="text-start">Email Id :-</label>
+                                            <input type="email" class="int1 w-100" name="" id="" placeholder="Enter your Email Id">
+                                            <label for="Name" class="text-start">Phone No :-</label>
+                                            <input type="number" class="int1 w-100" name="" placeholder="Enter your PhoneNo">
+                                            <div class="modal-footer justify-content-center">
+                                                <button type="button" class="btn btn-primary text-center mt-5">Submit</button>
+                                            </div>
+                                            </div>
+                                        <div class="tab-pane fade p-5" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                            <label for="Name" class="text-start">Name:-</label>
+                                            <input type="text" class="int1 w-100" name="" id="" placeholder="Enter your name">
+                                            <label for="Name" class="text-start">Last Name:-</label>
+                                            <input type="text" class="int1 w-100" name="" id="" placeholder="Enter your LastName">
+                                            <label for="Name" class="text-start">Email Id:-</label>
+                                            <input type="email" class="int1 w-100" name="" id="" placeholder="Enter your Email Id:-">
+                                            <label for="Name" class="text-start">Adhar number:-</label>
+                                            <input type="number" class="int1 w-100" name="" placeholder="Enter your AdharNumber">
+                                            <div class="modal-footer justify-content-center">
+                                                <button type="button" class="btn btn-primary mt-5">Submit</button>
+                                            </div>
+                                        </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- Button trigger modal -->
+    <!-- Modal -->
+    <!-- <div class="modal" tabindex="-1">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Modal title</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <p>Modal body text goes here.</p>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                              <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                                    
+                            </div>
+                        </div>
+        </nav>
+    </section> -->
+
+
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators d-none">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="images/slider1.jpg" class="slider_img1 d-block w-100" alt="slider1">
+                <div class="carousel-caption">
+
+                    <h1 class="text-start text-white mb-3 slider1_heading" style="font-size: 10vh;">Wide Product Variety
+                    </h1>
+                    <p class="text-start text-white w-50 mb-5 slider1_paragraph">Lorem ipsum dolor, sit amet consectetur
+                        adipisicing elit.
+                        Molestiae molestias a id, aliquam pariatur fugit quo libero, eaque explicabo similique quisquam.
+                    </p>
+                    <a href="#tjjt.html"><button type="button"
+                            class="slider_button1 border-0 text-start p-2 text-center"><b>View All
+                                Collection</b></button></a>
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/slider2.jpg" class="slider_img2 d-block w-100" alt="slider_img2">
+                <div class="carousel-caption d-md-block">
+                    <h1 class="text-start text-white mb-3 slider2_heading" style="font-size: 10vh;">Wide Product Variety
+                    </h1>
+                    <p class="text-start text-white w-50 mb-5 slider2_paragraph">Lorem ipsum dolor, sit amet consectetur
+                        adipisicing elit.
+                        Molestiae molestias a id, aliquam pariatur fugit quo libero, eaque explicabo similique quisquam.
+                    </p>
+                    <button type="button" class="slider_button1 border-0 text-start p-2"><b>View All
+                            Collection</b></button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/slider3.jpg" class="slider_img3 d-block w-100" alt="slider_img3">
+                <div class="carousel-caption  d-md-block">
+                    <h1 class="text-start text-white mb-3 slider3_heading" style="font-size: 10vh;">Wide Product Variety
+                    </h1>
+                    <p class="text-start text-white w-50 mb-5 slider3_paragraph">Lorem ipsum dolor, sit amet consectetur
+                        adipisicing elit.
+                        Molestiae molestias a id, aliquam pariatur fugit quo libero, eaque explicabo similique quisquam.
+                    </p>
+                    <button type="button" class="slider_button1 border-0 text-start p-2 "><b>View All
+                            Collection</b></button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <section id="first-section">
+        <h1 class="text-center first-section_h1">Our Collections</h1>
+        <div class="container-lg">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-sm-12">
+                    <div class=" first-section_first_box">
+                        <div class="first-section_first_box_data-aos"  data-aos="fade-right">
+
+                        <!-- </div> data-aos="fade-right" date-aos-deley="100"
+                        date-aos-duration="500"> -->
+                        <img src="images/Collection1.jpg" class="first-section_first_box_img1 p-3" style="top:0px;"
+                            alt="">
+                        <h5 class="text-center fs-5">Balkan Beige</h5>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class=" first-section_second_box"  data-aos="fade-right">
+                         <!-- data-aos="fade-left" date-aos-deley="100"
+                        date-aos-duration="500"> -->
+                        <img src="images/Collection2.jpg" class="first-section_first_box_img1 p-3" style="top:0px;"
+                            alt="">
+                        <h5 class="text-center fs-5">Novabell</h5>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class=" first-section_third_box"  data-aos="fade-right">
+<!--                         
+                    </div> data-aos="fade-right" date-aos-deley="100"
+                        date-aos-duration="500"> -->
+                        <img src="images/Collection3.jpg" class="first-section_first_box_img1 p-3" style="top:0px;"
+                            alt="">
+                        <h5 class="text-center fs-5">Calacata Limestone</h5>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class=" first-section_fourth_box"  data-aos="fade-right">
+
+                    <!-- </div>
+                    data-aos="fade-left" date-aos-deley="100"
+                        date-aos-duration="500"> -->
+                        <img src="images/Collection4.jpg" class="first-section_first_box_img1 p-3" style="top:0px;"
+                            alt="">
+                        <h5 class="text-center fs-5">Gramsmera</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Second-section" class="bg-light pt-lg-3">
+        <div class="container-lg">
+            <div class="row justify-content-center">
+                <div class=" Second-section_first_box col-lg-6 col-sm-12 mt-lg-5"  data-aos="fade-right">
+                     <!-- data-aos="fade-left"
+                    date-aos-deley="100" date-aos-duration="500"> -->
+                    <h1 class="Second-section_h1 mb-lg-3 mt-lg-3 fs-1">About Our Company</h1>
+                    <p class="w-100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit doloribus
+                        modi eaque magni dolor non hic sint illo, fugit nisi, totam pariatur sed ex omnis
+                        repellendus corporis error consequuntur odio.</p>
+                    <button class="Second-section_first_box_bt1 text-white border-0 mt-3"><b>READ
+                            MORE</b></button>
+                </div>
+                <div class="col-lg-6 col-sm-12 Second-section_second_box text-center "  data-aos="fade-right">
+
+                <!-- </div> data-aos="fade-right"
+                    date-aos-deley="100" date-aos-duration="500"> -->
+                    <img src="images/video.png" class="video borders-5 w-100" alt="video">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Third-section" class="px-5">
+        <div class="container-lg ">
+            <div class="row">
+                <div class="Third_div_first col-lg-6 col-md-6 col-sm-12">
+                    <h1 class="mt-lg-5">Products</h1>
+                </div>
+                <div class="Third_div_second col-lg-6 col-md-6 col-sm-12">
+                    <a href="#">
+                        <p class=" text-end  "><b>VIEW ALL PRODUCTS</b></p>
+                    </a>
+                </div>
+            </div>
+            <hr class="pb-3" style="background-color: white;">
+            <div class="row justify-content-evenly text-center">
+                <div class=" mb-5 col-lg-auto col-sm-12 Third-section_first_box " id="Third-section_first_box" data-aos="fade-right">
+                    <!-- >
+                    data-aos="fade-left" date-aos-deley="100" date-aos-duration="500"> -->
+                    <img src="images/product1.jpg" class="w-100 mt-5 " alt="">
+                    <h6 class="mt-2">Textured White Tiles</h6>
+                    <h5 class="text-center " style="color:rgb(168, 197, 191)">from $350</h5>
+                    <button type="button" class="btn btn-success Third-section_btn border-0">Details</button>
+                </div>
+                <div class="col-lg-auto col-sm-12 Third-section_first_box  mb-5" id="Third-section_second_box" data-aos="fade-right">
+                    <!-- data-aos="fade-left" date-aos-deley="100" date-aos-duration="500"> -->
+                    <img src="images/product2.jpg" class="w-100 mt-5 " alt="">
+                    <h6 class="text-center mt-2">Basketweave Tiles</h6>
+                    <h5 class=" text-center " style="color:rgb(168, 197, 191)">from $350</h5>
+                    <button type="button" class="btn btn-success Third-section_btn border-0">Details</button>
+                </div>
+                <div class="col-lg-auto col-sm-12 Third-section_first_box  mb-5" id="Third-section_third_box"  data-aos="fade-right">
+                    <!-- data-aos="fade-right" date-aos-deley="100" date-aos-duration="300"> -->
+                    <img src="images/product3.jpg" class="w-100 mt-5" alt="">
+                    <h6 class="text-center mt-2">Vellum tiles</h6>
+                    <h5 class=" text-center " style="color:rgb(168, 197, 191)">from $350</h5>
+                    <button type="button" class="btn btn-success Third-section_btn border-0">Details</button>
+                </div>
+                <div class="col-lg-auto col-sm-12 Third-section_first_box  mb-5 " id="Third-section_fourth_box" data-aos="fade-right">
+                    <!-- data-aos="fade-right" date-aos-deley="100" date-aos-duration="300"> -->
+                    <img src="images/product4.jpg" class="w-100 mt-5" alt="">
+                    <h6 class="text-center mt-2">Stone wall Tiles</h6>
+                    <h5 class="text-center " style="color:rgb(168, 197, 191)">from $350</h5>
+                    <button type="button"
+                        class="btn btn-success Third-section_btn text-center border-0">Details</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="four-Section" class="bg-light">
+        <div class="container-lg">
+            <div class="four_div pt-5">
+                <h1 class="First_h1 text-center mb-5">Latest News</h1>
+                <div class="container-fluid">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6 four-section_first_box px-lg-5 mb-5 " data-aos="flip-left">
+                            <div class="first_box bg-white">
+                                 <!-- data-aos="flip-left" date-aos-deley="100"
+                                date-aos-duration="500"> -->
+                                <img src="images/LeatestImg1.jpg" class=" four-section_first_box_img  img-fluid w-100"
+                                    alt="LeatestImg1">
+                                <div class="row date_A_No">
+                                    <div class=" col-lg-3 date_A_No1">
+                                        <h1 class=" text-center fs-1 date ">25</h1>
+                                        <h6 class="march text-center date">March</h6>
+                                    </div>
+                                    <div class="col-lg-9 no text-center position-relative">
+                                        <span class="vr mt-3 position-absolute"></span>
+                                        <h5 class="no_para w-100 text-start p-3">Choosing the tile size for<br>Your
+                                            bathroom: 5 Important
+                                            Tips</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6  four-section_second_box px-lg-5 mb-5" data-aos="flip-right">
+                         <!-- data-aos="flip-right" date-aos-deley="100" date-aos-duration="500" -->
+                            <img src="images/LeastImg2.jpg" class="w-100  four-section_second_box_img img-fluid w-100"
+                                alt="LeastImg2">
+                            <div class="second_box bg-white">
+                                <div class="row date_A_No img-fluid">
+                                    <div class="col-lg-3 date_A_No2">
+                                        <h1 class="text-center fs-1 date ">01</h1>
+                                        <h6 class="march text-center date">February</h6>
+                                    </div>
+                                    <div class="col-lg-9 no1 text-center position-relative">
+                                        <span class="vr mt-3 position-absolute"></span>
+                                        <h5 class="no1_para text-start p-3">Best tile for your kitchen:<br>The latest
+                                            collection of
+                                            2018</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="five-section">
+        <div class="fifth_div px-lg-5"
+            style="background-image:linear-gradient(to right, rgba(255,85,78,255), rgba(255,160,0,255))" ;>
+            <div class="container-lg">
+                <div class="row">
+                    <div class="col-lg-4 col-3 fifth_first_div col-sm-4">
+
+                    <!-- </div> data-aos="flip-left" date-aos-deley="100"
+                        date-aos-duration="500"> -->
+                        <!-- <img src="images/ads.jpg" class="w-100 fifth_first_div_image" style="height: 40vh;" alt="ads">
+                    </div>
+                    <div class="col-lg-8 col-8 fifth_second_div mt-lg-5 text-white">
+                        <p class="fs-1  text-white fifth_second_div_para">Get Full-Feature <b>Instance Templete!</b></p>
+                        <div class="fifth_second_div__fetures d-flex">
+                            <p class="me-lg-4 fifth_second_div__fetures_p1">500+ Html Files</p>
+                            <div class="vr mt-1 fifth_second_div__fetures_p1" style="height: 8px; color:black"></div>
+                            <p class="me-lg-4 ms-lg-3">29 niche templete</p>
+                            <div class="vr mt-1" style="height: 8px; color:black"></div>
+                            <p class="me-lg-4 ms-lg-3">1000+ UI Element</p>
+                            <div class="vr mt-1" style="height: 8px; color:black"></div>
+                            <p class="me-lg-4 ms-lg-3">Novi page builder</p> -->
+                        <img src="images/ads.jpg" class="w-100 fifth_first_div_image" style="height: 40vh;" alt="ads">
+                    </div>
+                    <div class="col-lg-8 col-8 fifth_second_div mt-lg-5 text-white">
+                         <!-- data-aos="flip-right"
+                        date-aos-deley="100" date-aos-duration="500"> -->
+                        <p class="fs-1  text-white fifth_second_div_para">Get Full-Feature <b>Instance Templete!</b></p>
+                        <div class="fifth_second_div__fetures d-flex">
+                            <p class="me-lg-4 fifth_second_div__fetures_p1">500+ Html Files</p>
+                            <div class="vr mt-1" style="height: 8px; color:black"></div>
+                            <p class="me-lg-4 ms-lg-3 fifth_second_div__fetures_p2">29 niche templete</p>
+                            <div class="vr mt-1" style="height: 8px; color:black"></div>
+                            <p class="me-lg-4 ms-lg-3 fifth_second_div__fetures_p3">1000+ UI Element</p>
+                            <div class="vr mt-1" style="height: 8px; color:black"></div>
+                            <p class="me-lg-4 ms-lg-3 fifth_second_div__fetures_p4">Novi page builder</p>
+                        </div>
+                        <button type="button" class="btn btn-success fifth_second_div__fetures_btn"
+                            style="width:19%;padding:10px 10px 10px 10px;">VIEW NOW!</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="sixth-section" style="background-color: rgb(49, 43, 43);color:white;">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-lg-1 col-2 five_section_First text-start fs-4 pt-lg-5 pb-lg-5"
+                    style="text-decoration: none;position: relative;">
+                    <a href="#" style="text-decoration: none;color:white;font-size: 3vh;"><b>HOME</b><span
+                            class="span_one vr" style="position: absolute;top:9.3vh;left:16vh;"></span></a>
+                </div>
+                <div class="col-lg-2 col-3 five_section_Second text-center fs-4 pb-lg-5 pt-lg-5"
+                    style="text-decoration: none;position: relative;">
+                    <a href="" style="text-decoration: none;color:white;font-size: 3vh;"><b>ABOUTUS</b><span
+                            class="span_two vr" style="position: absolute;top:9.3vh;left:28vh;"></span></a>
+                </div>
+                <div class="col-lg-2 col-4 five_section_Third text-start fs-4 pt-lg-5 pb-lg-5"
+                    style="text-decoration: none;position: relative;">
+                    <a href="#" style="text-decoration: none;color:white;font-size: 3vh;"><b>PRODUCTION</b><span
+                            class="span_three vr" style="position: absolute;top:9.5vh;left:27vh;"></span></a>
+                </div>
+                <div class="col-lg-1 col-3 five_section_fourth text-center fs-4 pt-lg-5 pb-lg-5"
+                    style="text-decoration: none;position: relative;">
+                    <a href="" style="text-decoration: none;color:white;font-size: 3vh;"><b>PRODUCT</b><span
+                            class="span_four vr" style="position: absolute;top:9.3vh;left:21vh;"></span></a>
+                </div>
+                <div class="col px-lg-5 col-2 sixth_section_five text-center fs-4  pt-lg-5 pb-lg-5"
+                    style="text-decoration: none;position: relative;">
+                    <a href="" style="text-decoration: none;color:white;font-size: 3vh;"><b>MEDIA</b><span
+                            class="span_five vr" style="position: absolute;top:9.3vh;left:26vh;"></span></a>
+                </div>
+                <div class="col-lg-2 col-2 five_section_sixth text-start fs-4 pt-lg-5 pb-lg-5"
+                    style="text-decoration: none;position: relative;">
+                    <a href="" style="text-decoration: none;color:white;font-size:3vh;"><b>CONTACTS</b></a>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <section id="Icon_section" style="position: relative;">
+            <div class="container-lg">
+                <div class="row ">
+                    <div class="col-lg-6 first_icon_text text-center-lg">
+                        Quarex @ 2023. All right reseverd.Design by TempleteMonster
+                    </div>
+                    <div class=" col-lg-6 col-sm-12 text-end second_icon_text">
+                        <b>Follow us</b>
+                        <button class="Icon_section_bt1 ms-lg-5"><a class="" href="#"><i
+                                    class="fa-brands fa-facebook-f"></i></a></button>
+                        <button class="Icon_section_bt2 ms-3 me-3"><a href="#"><i
+                                    class="fa-brands fa-twitter "></i></a></button>
+                        <button class="Icon_section_bt3"><a href="#"><i
+                                    class="fa-brands fa-instagram "></i></a></button>
+                        <!-- <button class="Icon_section_bt4 border-0"><a href="#Nav_section"><i
+                                    class="fa-solid fa-chevron-up text-white p-0"></i></a></button>-->
+
+                        <button onclick="topFunction()" id="myBtn" title="Go to top"><i
+                                class="fa-solid fa-chevron-up text-white p-0"></i></button> 
+                        <style>
+
+                        </style>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <!-- Script Section -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>

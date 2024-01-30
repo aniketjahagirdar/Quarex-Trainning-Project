@@ -1,0 +1,736 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+.navbar img{
+    height:7vh;
+}
+
+
+#exampleModal .tab-content .int1{
+    border:none;
+    padding: 10px;
+    border-bottom: 1px solid red ;
+    margin-bottom: 5px;
+    background-color: rgba(229,238,245,255);
+    border-radius: 5px !important;
+}
+#carouselExampleDark .carousel-caption .Slide_text_1{
+    position: absolute !important;
+    left: -12% !important;
+    top: 10vh !important;
+}
+#carouselExampleDark .carousel-caption{
+    top:20%;
+}
+.carousel-caption h1{
+    margin-left: -11vh !important;
+
+}
+.carousel-caption p{
+    margin-left: -10vh;
+}
+
+#four-Section .four-section_first_box .date{
+    color:#f39b01 !important;
+  
+}
+.carousel-inner p{
+color: #cfcdc9;
+}
+#carouselExampleDark .slider_button1{
+    margin-left: -88% !important;
+    background-color: rgba(243,155,0,255);
+    color: white;
+    height: 8vh;
+    margin-top: -5vh !important;
+    WIDTH: 25%;
+    text-align: center !important;
+    
+    padding:-1px 90px 10px 90px !important;
+}
+#carouselExampleDark .slider_button2{
+    margin-left: -88% !important;
+    background-color: rgba(243,155,0,255);
+    color: white;
+    WIDTH: 25%;
+    height: 8vh;
+    text-align: center !important;
+    
+    padding:-1px 90px 10px 90px !important;
+}
+#carouselExampleDark .slider_button3{
+    margin-left: -88% !important;
+    background-color: rgba(243,155,0,255);
+    color: white;
+    height: 8vh;
+    WIDTH: 25%;
+    text-align: center !important;
+    
+    padding:-1px 90px 10px 90px !important;
+}
+#carouselExampleDark .carousel-caption .slider_img2{
+    height: 30% !important;
+}
+#Third-section .Third-section_btn{
+    background-color: rgba(204,204,204,255)
+}
+#Second-section .Second-section_second_box .video{
+    border:15px solid white !important;
+    height: 360PX;
+}
+#Second-section .Second-section_first_box_bt1{
+    padding:10px 26px 10px 26px !important;
+}
+#Second-section .Second-section_first_box p{
+    color:darkgray;
+}
+#five-section .span_one{
+    position: absolute;
+
+    top: 0px !important;
+}
+#Second-section .Second-section_second_box img{
+    object-fit: cover;
+
+}
+#Second-section .Second-section_first_box h1{
+    font-size: 7vh !important;
+
+}
+#Second-section .Second-section_first_box p{
+    width: 80% !important;
+
+}
+#Third-section .Third-section_first_box h5{
+    font-size: 13px;
+    margin-bottom: 15vh !important;
+
+}
+#Third-section .Third_div p{
+    margin-top:10vh;
+    text-decoration: none;
+    color: black;
+    text-decoration:none;
+}
+#Third-section .Third_div_second a{
+    text-decoration: none;
+    color:black;
+    
+
+}
+#Third-section .Third_div_second p{
+    margin-top: 12vh !important;
+}
+#Third-section .Third-section_btn{
+    margin-top: -22vh;
+}
+#four-Section .vr{
+    height: 40vh !important;
+}
+/* #four-Section .four-section_first_box  .date_A_No{
+    width: 84% !important;
+}
+#four-Section .four-section_second_box  .date_A_No{
+    width: 84% !important;;
+} */ 
+#four-Section .no .vr{
+    position: absolute;
+    left:0px !important;
+    height: 10vh !important;
+}
+#four-Section .no1 .vr{
+    position: absolute;
+    text-align: center;
+    left:0vh !important;
+    height: 10vh !important;
+}
+
+
+
+
+
+#first-section h1{
+    /* margin-bottom: 10vh !important; */
+    padding: 40px !important;
+}
+/* #four-Section .date_A_No .no .vr{
+    height: 10vh;
+    margin-top:3vh;
+} */
+#first-section{
+    /* margin-bottom: 6vh !important; */
+}
+#Second-section{
+    /* height: 77vh !important; */
+    padding-top: 15vh !important;
+    padding-bottom: 15vh;
+
+}
+
+ .first-section_fourth_box{
+    margin-bottom: 15vh;
+}
+#four-section .First_h1{
+    padding-top: 10vh !important;
+    padding-bottom: 0px ;
+}
+
+#five-section .five_First_section a{
+text-decoration: none !important;
+}
+
+#four-Section .date ,#four-Section .Second_img_date{
+color:rgba(243,155,0,255);
+}
+
+#five-section .fifth_div .fifth_second_div .fifth_second_div__fetures{
+    display: flex;
+}
+#sixth-section .sixth-section_first_div{
+    display: flex;
+    gap: 5px !important;
+}
+
+/* #five-section{
+    margin-bottom: 40vh !important;
+} */
+#Icon_section .Footer_icon{
+    display: flex;
+    gap:5px;
+}
+
+#Icon_section .Icon_section_bt2{
+    border:1px solid white;
+    padding:7px 9px 8px 10px;
+    margin-bottom: 6vh;
+    background-color: transparent;
+    
+    
+}
+#Icon_section .Icon_section_bt3{
+    border:1px solid white;
+    padding:7px 10px 8px 11px;
+    margin-bottom: 6vh;
+    background-color: transparent;
+    
+}
+#Icon_section .Icon_section_bt1{
+background-color: transparent;
+    padding: 7px 13px 7px 12px;
+    border: 1px solid white;
+    color:black;
+}
+#Icon_section .Icon_section_bt1 a{
+    text-decoration: none;
+    color:white;
+}
+#Icon_section .Icon_section_bt2 a{
+    text-decoration: none;
+    color:white;
+}
+#Icon_section .Icon_section_bt3 a{
+    text-decoration: none;
+    color:white;
+}
+#Icon_section #myBtn
+{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 8px;
+    border: none;
+    outline: none;
+    background-color:rgba(243,155,0,255);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+/* #Icon_section .Icon_section_bt1 a:hover{
+    
+    color:black !important;
+
+} */
+#Icon_section{
+    margin-top:6vh;
+}
+
+
+
+/* #four-Section .date_A_No .march{
+    font-size: 3vh; */
+
+
+/* #four-Section .date_A_No h1{
+    font-size: 9vh;
+} */
+
+    /* height: 15vh !important; */
+
+
+
+/* #carouselExampleDark .carousel-caption{
+    position: absolute ;
+    top:30vh;
+    left:0px !important;
+    color:white;
+    margin-left: 4vh;
+} */
+/* #carouselExampleControls .slider_text{
+    position: absolute !important;
+    top: 0px !important;
+    padding: 90px 50px 20px 90px;
+    
+} */
+#Second-section_first_box{
+    margin-top: 50px !important;
+}
+#Second-section .Second-section_first_box_bt1{
+    background-color: rgba(6, 1, 4, 0.693);
+}
+/* #four-section .four-section_first_box_img{
+    width: 100%;
+    height: 100%;
+} */
+/* #four-section .four-section_second_box_img{
+    width: 100%;
+    height: 100%;
+} */
+/* #four-section .four-section_first_box .vl{
+    
+        border-left: 1px solid rgb(128, 216, 13);
+        height:40px;
+      
+} */
+/* #four-section  .march{
+    font-size: 25px;
+} */
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 425px) {
+    /* Styles */
+    
+    /* .navbar .navbar_img1{
+        position: absolute;
+        left: 64px;
+    } */
+    #Nav_section .navbar-toggler{
+        margin-right: 231px;
+        margin-top: -7vh;
+    }
+    #Nav_section .navbar_img1{
+        margin-left:9vh !important;
+    }
+
+    #Nav_section .navbar-collapse .navbar-collapse_bt1{
+        width: 100%  !important;
+
+    }
+    #Nav_section .navbar-collapse .navbar-toggler:focus{
+        border:0 !important;
+    }
+    #Nav_section .navbar-toggler{
+        border:none;
+    }
+    #carouselExampleDark .slider_img1{
+        height: 350px !important;
+    }
+    #carouselExampleDark .slider_img2{
+        height: 350px !important;
+    }
+    #carouselExampleDark .slider_img3{
+        height: 350px !important;
+    }
+    /* First slider css */
+    #carouselExampleDark .carousel-caption .slider1_heading{
+        font-size: 6vh !important;
+        margin-left: -8vh !important;
+    }
+    #carouselExampleDark .carousel-caption .slider1_paragraph{
+        margin-left: -7vh !important;
+        width: 100% !important;
+    }
+    #carouselExampleDark .carousel-caption .slider_button1{
+        width: 100% !important;
+        margin-left: -23% !important;
+    }
+
+    /* seconf slider css */
+    #carouselExampleDark .carousel-caption .slider2_heading{
+        font-size: 6vh !important;
+        margin-left: -8vh !important;
+    }
+    #carouselExampleDark .carousel-caption .slider2_paragraph{
+        margin-left: -7vh !important;
+        width: 100% !important;
+    }
+
+    /* third slider css */
+    #carouselExampleDark .slider3_heading{
+        font-size: 6vh !important;
+        margin-left: -8vh !important;
+    }
+    #carouselExampleDark .slider3_paragraph{
+        margin-left: -7vh !important;
+        width: 100% !important;
+    }
+    #Icon_section .Icon_section_bt1{
+        
+            background-color: transparent;
+            padding: 2px 8px 1px 8px;
+            border: 1px solid white;
+            color: black;
+        }
+        #Icon_section .Icon_section_bt2 {
+            border: 1px solid white;
+            padding: 2px 5px 1px 5px;
+            margin-bottom: 6vh;
+            background-color: transparent;
+        }
+        #Icon_section .Icon_section_bt3 {
+            border: 1px solid white;
+            padding: 2px 5px 1px 5px;
+            margin-bottom: 6vh;
+            background-color: transparent;
+        }
+
+
+    #first-section .first-section_h1{
+        margin-bottom:7vh !important;
+    }
+    #Second-section .Second-section_h1{
+        margin-top: 6vh !important;
+    }
+    #four-Section .date_A_No1{
+        margin-top: 2vh !important;
+    }
+    #four-Section .date_A_No2{
+        margin-top: 2vh !important;
+    }
+    #sixth-section .vr{
+        display: none;
+
+    }
+    #Icon_section #myBtn
+{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    padding: 5px 9px 5px 8px;
+    background-color: rgba(243,155,0,255);
+    color: white;
+    cursor: pointer;
+    border-radius: 0px !important;
+    margin-top: 8px !important;
+  }
+  
+  #myBtn:hover {
+    background-color: #555;
+  }
+    #sixth-section{
+    padding-top: 10px;
+    }
+    #four-Section .first_box .no .vr{
+        display: none;
+    }
+    #four-Section .second_box .no1 .vr{
+        display: none;
+    }
+    #five-section .fifth_second_div .fifth_second_div_para{
+        font-size: 10px !important;
+        margin-top: 5vh !important;
+        margin-left: 83px !important;
+        margin-bottom: 3px !important;
+    
+    }
+    /* #five-section .fifth_second_div .fifth_second_div__fetures_p1{
+        font-size: 9px !important;
+        
+    }
+    #five-section .fifth_second_div .fifth_second_div__fetures_p2{
+        font-size: 9px !important;
+    }
+    #five-section .fifth_second_div .fifth_second_div__fetures_p3{
+        font-size: 9px;
+    }
+    #five-section .fifth_second_div .fifth_second_div__fetures_p4{
+        font-size: 9px;
+    } */
+
+    /* test */
+    #five-section  .fifth_second_div .vr{
+       /* display: none !important; */
+        
+
+    }
+    #five-section .fifth_first_div .fifth_first_div_image{
+        width: 166px !important;
+        height: 21vh !important;
+        
+    }
+    #five-section .fifth_second_div .fifth_second_div__fetures{
+        margin-left: 80px !important;
+    }
+    #five-section .fifth_second_div .fifth_second_div__fetures_p1{
+        font-size: 5px !important;
+    padding: 0px 2px !important;
+    white-space: nowrap;
+        
+    }
+    #five-section .fifth_second_div .fifth_second_div__fetures_p2{
+        font-size: 5px !important;
+    padding: 0px 2px !important;
+    white-space: nowrap;
+    }
+    #five-section .fifth_second_div .fifth_second_div__fetures_p3{
+        font-size: 5px !important;
+    padding: 0px 2px !important;
+    white-space: nowrap;
+    }
+    #five-section .fifth_second_div .fifth_second_div__fetures_p4{
+        font-size: 5px !important;
+    padding: 0px 2px !important;
+    white-space: nowrap;
+    margin-bottom: -8px !important;
+    }
+    #five-section .fifth_second_div .fifth_second_div__fetures_btn{
+        margin-bottom: 3vh !important;
+    margin-left: 77px;
+    font-size: 6px;
+    border-radius: 0px;
+    padding: 2px 2px 2px 0px !important;
+    
+    }
+    #five-section .fifth_second_div .vr{
+        display: none;
+    }
+
+
+
+    #four-Section .First_h1{
+        margin-top: 5vh !important;
+    }
+
+    #four-Section .no_para{
+        text-align: center !important;
+    }
+    #four-Section .no1_para{
+        text-align: center !important;
+    }
+
+
+    #carouselExampleDark .carousel-inner .carousel-caption{
+        top:7% !important;
+    }
+
+    #first-section h1{
+        text-align: center;
+        margin-top:10vh !important;
+        padding: 0px !important;
+    }
+    #first-section img{
+        width:100%;
+        padding: 0px;
+    
+    }
+    #Third-section .Third-section_btn{
+        background-color: rgba(204,204,204,255);
+        border:none;
+        width:50%;
+    }
+    #four-Section .date_A_No .no .vr{
+        height: 0vh !important;
+    }
+
+    #Third-section .Third-section_first_box{
+        height: 100%;
+    width: 90%;
+    box-shadow: 0px 0px 8px 0px black;
+}
+#Third-section #Third-section_second_box{
+     height: 100%;
+    width: 90%;
+    box-shadow: 0px 0px 8px 0px black;
+}
+#Third-section #Third-section_third_box{
+    height: 100%;
+    width: 90%;
+    box-shadow: 0px 0px 8px 0px black;
+}
+#Third-section #Third-section_fourth_box{
+    height: 100%;
+    width: 90%;
+    box-shadow: 0px 0px 8px 0px black;
+}
+ #sixth-section #sixth_section_five{
+       padding-top: 0px !important;
+    }
+
+
+
+    /* #sixth-section .five_section_sixth a{
+        padding-top: 0vh !important;
+    } */
+    #Icon_section .first_icon_text{
+        text-align: center !important;
+    }
+    #Icon_section .second_icon_text{
+        text-align: center  !important;
+        margin-top: 5vh !important;
+    }
+    #Icon_section
+        #myBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            font-size: 8px;
+            border: none;
+            outline: none;
+            background-color:rgba(243,155,0,255);
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 4px;
+          }
+          
+          #myBtn:hover {
+            background-color: #555;
+          }
+    
+    #first-section .first-section_first_box_img1{
+        padding: 0vh !important;
+        margin-bottom: 2vh !important;
+    }
+    #first-section .first-section_first_box_img2{
+        padding: 0vh !important;
+        margin-bottom: 2vh !important;
+        margin-top: 3vh;
+
+    }
+    #first-section .first-section_first_box_img3{
+        padding: 0vh !important;
+        margin-bottom: 3vh !important;
+        margin-top: 2vh !important;
+
+    }
+    #first-section .first-section_first_box_img4{
+        padding: 0vh !important;
+        margin-top:2px !important;
+        margin-bottom: 3vh !important;
+
+    }
+    #Second-section {
+        padding-top: 0px !important;
+       
+
+
+    }
+    
+    
+    #Second-section .Second-section_first_box{
+        margin-top: 0px !important;
+        
+    }
+    #Second-section .Second-section_first_box .Second-section_first_box_bt1{
+        
+        margin-bottom: 3vh !important;
+    }
+    #Third-section{
+       padding: 0px !important;
+    }
+    #Third-section img{
+        padding: 40px  !important;
+     }
+     #four-Section .date_A_No .para{
+        /* margin-left: 5vh !important; */
+
+
+     }
+     #four-Section .four_div{
+        padding: 4px !important;
+     }
+     #four-Section .four-section_first_box{
+        padding: 4px !important;
+     }
+     #four-Section .four-section_first_box .vr{
+        height: 0px !important;
+     }
+    
+
+    #Third-section .Third_div_first h1{
+        margin-bottom: 5vh !important;
+        margin-top:0px !important;
+    }
+    #Third-section .Third_div_second p{
+        margin-top: -1vh !important;
+        text-align: start !important;
+    }
+    #Third-section .Third_div_second {
+        text-align: left;
+    }
+    .navbar_img1{
+    margin-right: 4px !important;
+    }
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+    @media only screen and (min-device-width : 1024px) and (max-device-width : 1440px) {
+        /* Styles */
+        .navbar{
+            height: 13vh;
+        }
+        .navbar .nav-link:hover{
+            color:rgba(244,164,114,255) !important;
+        }
+        .navbar .navbar-collapse .button_one{
+            border:none !important;
+            height: 6vh !important;
+        }
+        .navbar .navbar_img1{
+            height: 7vh;
+        }
+        .navbar-collapse #annkar_1{
+            color:orange !important;
+        }
+        .navbar-collapse .nav-link{
+            color:black !important
+        }
+        .navbar-collapse .navbar-nav{
+            gap:20px;
+        }
+        .navbar-collapse{
+            margin-left: 40vh;
+        }
+        .navbar-collapse .nav-link{
+            gap:30px;
+        } 
+       
+    }
